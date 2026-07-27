@@ -1,5 +1,5 @@
 # PLSC-functions
-This code is for performing the partial least squares correlation (PLSC) method from the paper "MEG oscillation-based functional connectivity identifies clinically relevant depression phenotypes".
+This python code is for performing the partial least squares correlation (PLSC) method from the paper "MEG oscillation-based functional connectivity identifies clinically relevant depression phenotypes". The code was customized from the myPLS toolbox (https://github.com/MIPLabCH/myPLS). 
 
 PLSC_func.py include all the core functions to perform PLSC, and example_PLSC.py is an example code how to set it up and run it. 
 
