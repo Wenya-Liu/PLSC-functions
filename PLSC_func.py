@@ -105,9 +105,9 @@ def permutation_test(imag_matrix, beh_matrix, S, U, n_perm = 1000):
             Sp = np.sqrt(np.sum(Up**2, axis=0))   # the same as using np.sqrt(np.sum(Up**2, axis=0))
             Sp_vect[n_p,:] = Sp
 
-            # Compute the p-values from the permutation null distribution
-            sp = np.sum(Sp_vect >= S, 0)
-            LC_pvals = sp/n_perm
+      # Compute the p-values from the permutation null distribution
+      sp = np.sum(Sp_vect >= S, 0)
+      LC_pvals = sp/n_perm
 
       return LC_pvals, Sp_vect
 
